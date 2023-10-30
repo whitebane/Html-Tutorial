@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms HTML5</title>
+</head>
+<body>
+    <form>
+
+        <!--HTML5 Input-->
+
+        <label for="name">Name</label> <br/>
+        <input type="text" id="name" name="name"/>
+        <br/>
+        <label for="email">Mail</label> <br/>
+        <input type="email" name="email" id="email">
+        <br/>
+     
+        <label for="Pass">Password</label> <br/>
+        <input type="password" name="password" id="pass">
+     
+        <br/>
+        <label for="date">Date</label> <br/>
+        <input type="date" name="date" id="date">
+        <br/>
+        <br/>
+        Gender<br/>
+        <br/>
+        Male
+        <input type="radio" name="gender" value="male"/>
+        Female
+        <input type="radio" name="gender" value="female"/>
+        Other
+        <input type="radio" name="gender" value="other"/>
+
+        <br/>
+        <br/>
+
+        Hobbies <br/>
+        <br/>
+        Technologhy
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="music" id="music">
+        <br/>
+        <br/>
+        Deggre <br/>
+        <br/>
+        <select name="Deggre" id="Deggre">
+            <option value="bachelor">Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+        </select>
+        <br/>
+        <br/>
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="Mesaj"></textarea>
+        <br/>
+        <br/>
+        <button type="submit">Send</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html> 
